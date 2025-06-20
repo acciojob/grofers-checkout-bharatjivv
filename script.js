@@ -17,7 +17,7 @@ const getSum = () => {
   let totalRow = document.createElement('tr');
   totalRow.innerHTML = `
     <td> Total </td>
-    <td> ${sum} </td>
+    <td id="ans"> ${sum} </td>
     `;
 
   tabla.appendChild(totalRow);
